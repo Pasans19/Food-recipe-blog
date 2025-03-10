@@ -8,6 +8,7 @@ const recipeData = {
   1: {
     title: 'Classic Spaghetti Carbonara',
     image: 'https://cdn.pixabay.com/photo/2017/11/25/17/17/sandwich-2977251_1280.jpg',
+    image: 'https://cdn.pixabay.com/photo/2017/11/25/17/17/sandwich-2977251_1280.jpg',
     description: 'A creamy Italian pasta dish with eggs, cheese, pancetta, and black pepper.',
     time: 30,
     difficulty: 'Easy',
@@ -20,13 +21,21 @@ const recipeData = {
       'Freshly ground black pepper',
       'Salt to taste',
     ],
+    
     instructions: [
       'Boil the pasta in salted water until al dente.',
       'In a separate pan, cook pancetta until crispy.',
-      'Whisk eggs with cheese and pepper in a bowl.',
-      'Mix hot pasta with pancetta, then add egg mixture off heat.',
-      'Toss well and serve immediately with extra cheese.',
-    ],
+      'Reserve about 1 cup of pasta water before draining.',
+      'Whisk eggs with cheese and pepper in a bowl until smooth.',
+      'Once pasta is drained, keep it hot by setting it aside in a bowl.',
+      'Add the hot pasta to the crispy pancetta in the pan.',
+      'Off heat, pour the egg mixture over the hot pasta and pancetta.',
+      'Toss well to coat the pasta in the creamy egg sauce.',
+      'Add reserved pasta water a little at a time to adjust the sauce consistency.',
+      'Taste and adjust seasoning with more cheese or pepper, if desired.',
+      'Serve immediately with extra cheese and freshly ground black pepper.'
+    ]
+    
   },
 };
 
